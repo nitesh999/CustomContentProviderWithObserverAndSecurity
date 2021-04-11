@@ -1,96 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0575bff2-3798-4285-8175-8cf4b06ec010" name="Default Changelist" comment="1st Commit for the whole app">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/androidTest/java/com/example/contentprovidercontentobserverexample/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/java/com/example/contentprovidercontentobserverexample/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/java/com/example/contentprovidercontentobserverexample/UsersProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/app/src/test/java/com/example/contentprovidercontentobserverexample/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentProviderContentObserverExample/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/androidTest/java/com/example/contentreceivercontentobserverexample/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/java/com/example/contentreceivercontentobserverexample/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/app/src/test/java/com/example/contentreceivercontentobserverexample/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContentReceiverContentObserverExample/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomContentProviderWithObserverAndSecurity.iml" afterDir="false" />
-    </list>
+    <list default="true" id="0575bff2-3798-4285-8175-8cf4b06ec010" name="Default Changelist" comment="1st Commit for the whole app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,12 +13,12 @@
   <component name="ProjectId" id="1fBcZMhfDkTNBm3RzoIoMiuGWYq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ContentProviderContentObserverExample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ContentProviderContentObserverExample/settings.gradle" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="SvnConfiguration">
@@ -135,17 +46,9 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="79" y="0" key="CommitChangelistDialog2" timestamp="1595695229026">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1618140501479">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="79" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1595695229026" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1595695063086">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595695063086" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1595695287455">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1595695287455" />
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1618140501479" />
   </component>
 </project>

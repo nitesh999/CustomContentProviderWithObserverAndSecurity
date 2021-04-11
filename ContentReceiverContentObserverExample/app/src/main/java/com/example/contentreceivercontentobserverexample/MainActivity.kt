@@ -13,11 +13,10 @@ import androidx.loader.app.LoaderManager
 import androidx.loader.content.CursorLoader
 import androidx.loader.content.Loader
 
-
 private const val URL_LOADER = 0
 private const val PROVIDER_NAME = "com.example.contentprovidercontentobserverexample"
 private const val URL = "content://$PROVIDER_NAME/users"
-val CONTENT_URI = Uri.parse(URL)
+val CONTENT_URI: Uri = Uri.parse(URL)
 const val name = "name"
 
 class MainActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<Cursor> {
@@ -57,8 +56,8 @@ class MainActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<Cursor> 
 
     override fun onCreateLoader(id: Int, args: Bundle?): Loader<Cursor> {
         val cursorLoader = CursorLoader(this)
-        cursorLoader.setUri(CONTENT_URI)
-        cursorLoader.setProjection(null)
+        cursorLoader.uri = CONTENT_URI
+        cursorLoader.projection = null
         return cursorLoader
     }
 

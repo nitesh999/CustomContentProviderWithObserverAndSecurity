@@ -30,7 +30,7 @@
             android:exported="true"
             android:grantUriPermissions="false"
             android:readPermission="com.example.contentprovidercontentobserverexample.PERMISSION.READ"
-            android:writePermission="com.example.contentprovidercontentobserverexample.PERMISSION.WRITE"></provider>
+            android:writePermission="com.example.contentprovidercontentobserverexample.PERMISSION.WRITE"/>
 
     </application>
 

@@ -21,6 +21,7 @@ private const val URL_LOADER = 0
 const val NOTE_ACTION_VIEW = "com.example.contentprovidercontentobserverexample.custom.intent.action.NOTE_VIEW"
 
 class MainActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<Cursor> {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -42,14 +43,14 @@ class MainActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<Cursor> 
         Toast.makeText(baseContext, "New Record Inserted", Toast.LENGTH_LONG).show()
     }
 
-    fun onClickTempUriGrant(view: View) {//this wont work for receiver app after app is removed from the recent task
-        // to check this capability please comment permission in the manifest @line 5 or android:readPermission and android:writePermission as both are same, make exported=false and grantUriPermissions=true
+    fun onClickTempUriGrant(view: View) {//this feature enables provider app to share data only with specific app's pacakge mentioned in grantUriPermission
+        // to check this capability please make exported=false and grantUriPermissions=true
         grantUriPermission("com.example.contentreceivercontentobserverexample", UsersProvider.CONTENT_URI, Intent.FLAG_GRANT_READ_URI_PERMISSION)
         grantUriPermission("com.example.contentreceivercontentobserverexample", UsersProvider.CONTENT_URI, Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
     }
 
     fun onClickTempUriGrantUsingIntent(view: View) {//this will work only 1 time for receiver app
-        // to check this capability please comment permission in the manifest @line 5 or android:readPermission and android:writePermission as both are same, make exported=false and grantUriPermissions=true
+        // to check this capability please make exported=false and grantUriPermissions=true
         val intent = packageManager.getLaunchIntentForPackage("com.example.contentreceivercontentobserverexample")
         intent?.action = NOTE_ACTION_VIEW // SET CUSTOM INTENT ACTION
         intent?.flags = Intent.FLAG_ACTIVITY_NEW_TASK
@@ -60,13 +61,15 @@ class MainActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<Cursor> 
 
     fun onClickShowDetails(view: View) {
         // Retrieve employee records
-        showUserList()
+        val cursor = contentResolver.query(Uri.parse(UsersProvider.URL), null, null, null, null)
+        if (cursor != null) {
+            showUserList(cursor)
+        }
     }
 
-    private fun showUserList() {
+    private fun showUserList(cursor:Cursor) {
         val resultView = findViewById<View>(R.id.res) as TextView
-        val cursor = contentResolver.query(Uri.parse(UsersProvider.URL), null, null, null, null)
-        if (cursor!!.moveToFirst()) {
+        if (cursor.moveToFirst()) {
             val strBuild = StringBuilder()
             while (!cursor.isAfterLast) {
                 strBuild.append("""${cursor.getString(cursor.getColumnIndex("id"))}-${cursor.getString(cursor.getColumnIndex("name"))}""".trimIndent())
@@ -81,13 +84,13 @@ class MainActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<Cursor> 
 
     override fun onCreateLoader(id: Int, args: Bundle?): Loader<Cursor> {
         val cursorLoader = CursorLoader(this)
-        cursorLoader.setUri(UsersProvider.CONTENT_URI)
-        cursorLoader.setProjection(null)
+        cursorLoader.uri = UsersProvider.CONTENT_URI
+        cursorLoader.projection = null
         return cursorLoader
     }
 
-    override fun onLoadFinished(loader: Loader<Cursor>, data: Cursor?) {
-        showUserList()
+    override fun onLoadFinished(loader: Loader<Cursor>, data: Cursor) {
+        showUserList(data)
     }
 
     override fun onLoaderReset(loader: Loader<Cursor>) {
